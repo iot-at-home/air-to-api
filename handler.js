@@ -7,7 +7,7 @@ const BUCKET = process.env.BUCKET;
 const USER = process.env.USER;
 
 
-module.exports.athome = async (event, context) => {
+module.exports.air = async (event, context) => {
   let user = USER.split(",");
   let userdata = [];
   for (let i=0;i<user.length;i++){
