@@ -32,7 +32,7 @@ functions:
     handler: handler.air
     environment:
       BUCKET: sambot-air
-      ROOMS: studio,guest
+      ROOMS: studio,guest,livingroom,johann,bedroom
     tags: # Function specific tags
       project: sambot
       sambot: air
